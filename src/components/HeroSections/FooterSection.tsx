@@ -58,7 +58,7 @@ const FooterSection: React.FC = () => {
               </a>
             ))}
           </div>
-          <div className="block lg:hidden grid grid-cols-4 gap-3 px-15 mt-4">
+          <div className="block lg:hidden grid grid-cols-4 gap-3 px-17 mt-4">
             {socials.map((social, index) => (
               <a
                 href={social.link}
