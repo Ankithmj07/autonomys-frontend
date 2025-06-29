@@ -1,8 +1,8 @@
 import React from 'react';
-//import bgImage from '../../assets/adsBg.png'; 
+import bgImage from '../../assets/AdsBG.png' 
 import AdsMarquee from './AdsMarquee';
 
-const bgImage = '/assets/adsBg.png';
+//const bgImage = '/assets/adsBg.png';
 const AdsSection: React.FC = () => {
   return (
     <div className='px-3 mt-30'>
