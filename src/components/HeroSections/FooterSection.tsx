@@ -40,7 +40,7 @@ const FooterSection: React.FC = () => {
         {/* Left Side */}
         <div className="flex flex-col gap-6">
           <div className="flex justify-center lg:block items-center gap-3">
-            <img src={logoImg} alt="logo" className="w-[70%] lg:w-[30%]" />
+            <img src={logoImg} alt="logo" className="w-[70%] md:w-[30%]" />
           </div>
           <p className="text-[#d1d8eb] text-center lg:text-left opacity-80">The Foundation Layer for AI3.0</p>
 
@@ -58,7 +58,7 @@ const FooterSection: React.FC = () => {
               </a>
             ))}
           </div>
-          <div className="block lg:hidden grid grid-cols-4 gap-3 px-17 mt-4">
+          <div className="block lg:hidden grid grid-cols-4 md:flex md:justify-center gap-3 px-17 mt-4">
             {socials.map((social, index) => (
               <a
                 href={social.link}
@@ -74,7 +74,7 @@ const FooterSection: React.FC = () => {
         </div>
 
         {/* Right Side */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 mt-10 lg:mt-0">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10 lg:mt-0">
           {links.map((section, index) => (
             <div key={index}>
               <h3 className="text-[12px] text-white tracking-widest mb-3">

@@ -33,7 +33,7 @@ const StackCardComponent: React.FC<StackCardProps> = ({
     >
     <div 
     ref={ref}
-    className={`w-full bg-[#d1d8eb] rounded-3xl px-0 lg:p-6 lg:px-30 flex flex-col-reverse lg:flex-row
+    className={`w-full bg-[#d1d8eb] rounded-3xl px-0 xl:py-10 2xl:p-6 2xl:px-30 flex flex-col-reverse lg:flex-row
         ${reverse ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-5 lg:gap-20 items-center`}>     
       <div className="flex-1">
         <div className='hidden lg:block w-full px-2'>
@@ -53,7 +53,7 @@ const StackCardComponent: React.FC<StackCardProps> = ({
           {listItems.map((item, index) => (
             <button
               key={index}
-              className="bg-[#B2B9CD] lg:w-[50%] lg:text-left px-3 text-white py-1 rounded-md "
+              className="bg-[#B2B9CD] md:w-[50%] lg:text-left px-3 text-white py-1 rounded-md "
             >
               {item}
             </button>

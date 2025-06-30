@@ -46,13 +46,13 @@ const AutonomysSection: React.FC = () => {
           }}
         
         >Autonomys Network</h2>
-        <p className="text-[#9DA2B0] text-base lg:text-[20px] leading-8 max-w-4xl mx-auto tracking-wide">
+        <p className="text-[#9DA2B0] text-base md:text-[20px] leading-8 max-w-4xl mx-auto tracking-wide">
           Our AI3.0 ecosystem stack is designed to provide all the necessary components to build and deploy
           AI-powered dApps (super dApps) and agents, and includes:
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-8 items-stretch">
+      <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6 xl:grid-cols-3 2xl:grid 2xl:grid-cols-3 2xl:gap-0 2xl:px-25 justify-center gap-8 items-stretch">
         {features.map((feature) => (
           <AutonomysCard key={feature.title} {...feature} />
         ))}

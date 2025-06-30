@@ -42,7 +42,7 @@ const stackCardData = [
 
 const StackSection:React.FC = () => {
   return (
-    <div className="flex flex-col gap-16 p-5 lg:p-10 bg-[#d1d8eb]">
+    <div className="flex flex-col gap-16 p-5 2xl:p-10 bg-[#d1d8eb]">
         <div className='w-full'>
             <div className='flex justify-center'>
                 <h1 className='text-[40px] text-center lg:text-[96px] lg:pt-10'

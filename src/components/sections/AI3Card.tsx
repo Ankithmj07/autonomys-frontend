@@ -8,7 +8,7 @@ type AI3CardProps = {
 
 const AI3Card: React.FC<AI3CardProps> = ({ version, title, description }) => {
   return (
-    <div className="bg-[#91a0b119] backdrop-blur-lg border-1 border-[#292a41] rounded-3xl px-2 py-6 lg:p-15 flex flex-col md:flex-row gap-6 text-white">
+    <div className="bg-[#91a0b119] backdrop-blur-lg border-1 border-[#292a41] rounded-3xl px-2 py-6 lg:p-15 flex flex-col lg:flex-row gap-6 text-white">
       {/* Left Section */}
       <div className="flex flex-col px-4 w-full md:w-1/2">
         <div className="bg-[#292A41] text-white px-4 py-5 lg:px-6 lg:py-7 rounded-2xl w-fit text-lg mb-4">
@@ -20,7 +20,7 @@ const AI3Card: React.FC<AI3CardProps> = ({ version, title, description }) => {
           }}
           >{version}</p>
         </div>
-        <div className='pr-4 lg:pr-6'>
+        <div className='pr-4 lg:pr-6 md:pr-10'>
             <h2 className="text-3xl leading-snug"
             style={{
                 fontFamily:"Roboto Serif",

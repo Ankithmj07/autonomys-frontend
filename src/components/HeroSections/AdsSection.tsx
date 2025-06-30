@@ -15,9 +15,9 @@ const AdsSection: React.FC = () => {
             backgroundSize:'cover, auto;',
           }}
         >
-        <div className='text-center mb-40 lg:mb-0 lg:mb-20'>
+        <div className='text-center mb-40 lg:mb-20 md:px-10 lg:px-0'>
           <h1
-            className="text-[40px] lg:text-[72px] text-white text-center leading-12 lg:leading-30"
+            className="text-[40px] md:text-[72px] text-white text-center leading-12 md:leading-20 lg:leading-30"
             style={{
               fontFamily: 'Roboto Serif',
             }}
@@ -29,8 +29,8 @@ const AdsSection: React.FC = () => {
             Building on the Autonomys Network will help you unlock unparalleled performance, security and scalability.
           </p>
           </div>
-          <div className="flex flex-col lg:flex-row px-20 lg:px-0 gap-6 justify-center mt-10">
-            <button className="bg-[#191926] text-white lg:px-8 py-3 rounded-2xl hover:opacity-80 transition">
+          <div className="flex flex-col md:flex-row px-20 lg:px-0 gap-6 justify-center mt-10">
+            <button className="bg-[#191926] text-white md:px-8 py-3 rounded-2xl hover:opacity-80 transition">
               List Project
             </button>
             <button className="bg-white text-black px-8 py-3 rounded-2xl hover:opacity-80 transition">
@@ -38,7 +38,7 @@ const AdsSection: React.FC = () => {
             </button>
           </div>
         </div>
-        <div className='hidden lg:block w-full px-3 absolute mt-140'>
+        <div className='hidden md:block w-full px-3 absolute mt-140'>
           <AdsMarquee></AdsMarquee>
         </div>
         </div>

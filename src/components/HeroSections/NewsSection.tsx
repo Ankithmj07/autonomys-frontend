@@ -31,9 +31,9 @@ const newsData = [
 
 const NewsSection: React.FC = () => {
   return (
-    <div className="w-full bg-[#1a1927] px-4 lg:px-40 py-16 lg:mt-20">
+    <div className="w-full bg-[#1a1927] px-4 xl:px-4 2xl:px-40 py-16 lg:mt-20">
         <h1
-              className="block lg:hidden text-[40px] mb-10"
+              className="block lg:hidden text-[40px] md:text-[96px] mb-10"
               style={{
                 fontFamily: 'Roboto Serif',
                 backgroundImage: 'linear-gradient(172deg, #5373c4, white)',
@@ -51,7 +51,7 @@ const NewsSection: React.FC = () => {
             alt="Main News"
             className="rounded-3xl w-full h-[400px] lg:h-full object-cover"
           />
-          <div className="absolute bottom-2 left-2 bg-[#292a4100] backdrop-blur-2xl p-5 rounded-4xl h-[310px] max-w-[95%] lg:max-w-[62%]">
+          <div className="absolute bottom-2 left-2 bg-[#292a4100] backdrop-blur-2xl p-5 rounded-4xl h-[310px] max-w-[95%] md:max-w-[45%] lg:max-w-[62%]">
             <h2
               className="text-[24px] lg:text-[32px] text-[#d1d8eb] leading-tight font-light"
               style={{

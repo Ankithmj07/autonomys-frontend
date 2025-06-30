@@ -10,14 +10,14 @@ type NewsCardProps = {
 
 const NewsCard: React.FC<NewsCardProps> = ({ image, title, author, date }) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-2 p-4 py-5 bg-[#292a4126] rounded-4xl hover:bg-[#2a2a3d] transition">
+    <div className="flex flex-col md:flex-row gap-2 p-4 py-5 bg-[#292a4126] rounded-4xl hover:bg-[#2a2a3d] transition">
       <img
         src={image}
         alt={title}
-        className="w-full h-[100px] lg:w-[180px] lg:h-[100px] rounded-xl object-cover"
+        className="w-full h-[100px] md:w-[180px] md:h-[100px] rounded-xl object-cover"
       />
       <div className="flex flex-col justify-center mt-2 lg:mt-0 lg:px-5">
-        <h3 className="text-[20px] text-[#d1d8eb] leading-6 font-light"
+        <h3 className="text-[18px] text-[#d1d8eb] leading-6 font-light"
         style={{
             fontFamily: 'Roboto Serif',
           }}

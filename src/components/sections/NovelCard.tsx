@@ -16,7 +16,7 @@ const NovelCard: React.FC<NovelCardProps> = ({ value, label }) => {
       <p className="text-[#C7CAE2] text-[24px] leading-relaxed px-10">
         {label}
       </p>
-      <button className="hidden md:block mt-4 bg-white text-black px-6 py-2 rounded-xl font-medium">
+      <button className="hidden lg:block mt-4 bg-white text-black px-6 py-2 rounded-xl font-medium">
         Explore
       </button>
     </div>

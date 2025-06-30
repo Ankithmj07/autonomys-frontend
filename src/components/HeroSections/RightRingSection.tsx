@@ -15,7 +15,7 @@ const RightRingComponent: React.FC = () => {
       <img
         src={leftRingImg}
         alt="Ring Background"
-        className="absolute right-0 top-[38%] lg:top-0 z-0 max-w-full h-auto"
+        className="absolute right-0 top-[38%] md:top-[10%] lg:top-0 z-0 max-w-full h-auto"
       />
 
       {/* AI3Section content on top */}

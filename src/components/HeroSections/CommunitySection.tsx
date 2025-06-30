@@ -4,7 +4,7 @@ import FooterSection from './FooterSection';
 
 const CommunitySection: React.FC = () => {
   return (
-    <div className="w-full py-20 h-[1850px] lg:h-[1063px]"
+    <div className="w-full py-20 h-[1850px] md:h-[1500px] lg:h-[1063px]"
     style={{
         backgroundImage: `url(${footerBGImage}), linear-gradient(180deg, #1a1927, #5373c480 50%, white)`,
         backgroundPosition:'50% 100%, 0px 0px',
@@ -14,12 +14,12 @@ const CommunitySection: React.FC = () => {
         position:'relative'
       }}
     >
-      <div className='px-4 lg:px-40 mt-10'>  
+      <div className='px-4 xl:px-4 2xl:px-40 mt-10'>  
       <div className="flex flex-col lg:flex-row justify-between gap-10">
         {/* Left Section */}
         <div>
           <h1
-            className="text-[48px] lg:text-[96px] leading-tight"
+            className="text-[48px] md:text-[96px] leading-none"
             style={{
               fontFamily: 'Roboto Serif',
               backgroundImage: 'linear-gradient(172deg, #5373c4, white)',
@@ -32,8 +32,8 @@ const CommunitySection: React.FC = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex flex-col gap-8">
-          <p className="text-[#d1d8eb] text-[16px] opacity-80 max-w-xl">
+        <div className="flex flex-col gap-8 lg:mt-8 md:mt-0">
+          <p className="text-[#d1d8eb] text-[16px] opacity-80 max-w-full">
             Our network provides the infrastructure to scale decentralized AI3.0 applications on-chain—hyper-scalable permanent data storage, super-fast data availability & flexible EVM-compatible decoupled execution.
           </p>
 
@@ -53,7 +53,7 @@ const CommunitySection: React.FC = () => {
       <div className="w-full border-t border-[#ffffff33] my-10"></div>
 
       {/* Newsletter */}
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-1">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-1">
         <h2
           className="text-[32px]"
           style={{
@@ -64,7 +64,7 @@ const CommunitySection: React.FC = () => {
           Subscribe to the AI3.0 Newsletter
         </h2>
 
-        <div className="flex flex-col lg:flex-row gap-6 w-full lg:w-auto mt-2 lg:mt-0">
+        <div className="flex flex-col md:flex-row gap-6 w-full lg:w-auto mt-2 lg:mt-0">
           <input
             type="email"
             placeholder="Your Email"

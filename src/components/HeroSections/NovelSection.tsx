@@ -17,7 +17,7 @@ const NovelSection: React.FC = () => {
     }}
     >
         <section className="w-full relative"> 
-            <h1 className='text-[40px] text-center lg:text-[72px] lg:pt-20'
+            <h1 className='text-[40px] text-center md:text-[72px] md:pt-20'
             style={{
                 fontFamily:"Roboto Serif",
                 backgroundImage: 'linear-gradient(172deg, #5373c4, white)',
@@ -33,7 +33,7 @@ const NovelSection: React.FC = () => {
           <div className='mt-[-200px] lg:px-0 lg:mt-[-40px]'>
             <img src={dotsImg} className='absolute transform scale-[0.85] '></img>
           </div>
-          <div className="relative max-w-7xl mx-auto px-6 mt-[-350px] lg:mt-0 lg:py-76 flex flex-col md:flex-row justify-between items-center lg:gap-12 md:gap-0 divide-y md:divide-y-0 md:divide-x divide-[#ffffff25]">
+          <div className="relative max-w-7xl mx-auto px-6 mt-[-350px] lg:mt-0 lg:py-76 flex flex-col lg:flex-row justify-between items-center lg:gap-12 md:gap-0 divide-y lg:divide-y-0 lg:divide-x divide-[#ffffff25]">
             {cardData.map((card, idx) => (
               <div key={idx} className="flex-1">
                 <NovelCard value={card.value} label={card.label} />
