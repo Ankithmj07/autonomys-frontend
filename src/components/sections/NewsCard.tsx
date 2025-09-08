@@ -22,7 +22,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ image, title, author, date }) => {
             fontFamily: 'Roboto Serif',
           }}
         >{title}</h3>
-        <div className="flex items-center gap-2 text-[16px] xl:text[12px] text-[#a6a6bb] mt-2">
+        <div className="flex items-center gap-2 text-[16px] xl:text-[12px] text-[#a6a6bb] mt-2">
           <img
             src={newsLogo} // Replace with author logo if any
             alt="author"
