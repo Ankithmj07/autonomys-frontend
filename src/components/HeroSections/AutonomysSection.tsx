@@ -52,7 +52,7 @@ const AutonomysSection: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6 xl:grid xl:grid-cols-3 2xl:grid 2xl:grid-cols-3 xl:gap-0 xl:px-25 justify-center gap-8 items-stretch">
+      <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6 xl:grid xl:grid-cols-3 2xl:grid 2xl:grid-cols-3 xl:gap-3 xl:px-25 justify-center gap-8 items-stretch">
         {features.map((feature) => (
           <AutonomysCard key={feature.title} {...feature} />
         ))}
