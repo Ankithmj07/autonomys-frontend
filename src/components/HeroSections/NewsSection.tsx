@@ -31,7 +31,7 @@ const newsData = [
 
 const NewsSection: React.FC = () => {
   return (
-    <div className="w-full bg-[#1a1927] px-4 xl:px-4 xl:px-40 py-16 lg:mt-20">
+    <div className="w-full bg-[#1a1927] px-4 lg:px-4 xl:px-40 py-16 lg:mt-20">
         <h1
               className="block lg:hidden text-[40px] md:text-[96px] mb-10"
               style={{
