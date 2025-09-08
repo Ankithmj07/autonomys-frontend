@@ -4,7 +4,7 @@ import GreenRingImage from '../../assets/GreenRing.png'; // Use your actual imag
 const ProtocolSection: React.FC = () => {
   return (
     <div className='bg-[#d1d8eb] flex justify-center py-10 md:py-20 px-4 2xl:px-0 lg:py-30 lg:pb-40'>
-        <section className="relative w-full xl:px-8 2xl:w-[80%] overflow-hidden rounded-[2rem] py-10 md:py-10 lg:py-30"
+        <section className="relative w-full xl:px-8 xl:w-[80%] overflow-hidden rounded-[2rem] py-10 md:py-10 lg:py-30"
         style={{
             backgroundImage: 'linear-gradient(91deg, #fff, #5373c4)',
             backgroundRepeat: 'no-repeat',

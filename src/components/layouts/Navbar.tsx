@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const menuItems = ['Protocol', 'Products', 'Ecosystem', 'Community', 'Blog', 'About'];
 
   return (
-    <nav className="fixed sticky z-1000 w-full py-3 flex justify-between px-4 space-x-28 xl:px-20 2xl:px-35 md:space-x-138 2xl:space-x-38 items-center mt-5">
+    <nav className="fixed sticky z-1000 w-full py-3 flex justify-between px-4 space-x-28 xl:px-35 2xl:px-35 md:space-x-138 xl:space-x-38 items-center mt-5">
       {/* Logo */}
       <div className='w-[160px] h-[52px] px-[22px] pt-4 pt-[18px] bg-[#292a4100] backdrop-blur-lg rounded-[14px]'>
         <img src={autonomysLogo} alt="Autonomys Logo" className="w-[116px]" />

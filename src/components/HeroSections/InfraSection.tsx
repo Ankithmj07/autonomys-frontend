@@ -8,7 +8,7 @@ const InfraSection: React.FC = () => {
     <>
     <section className="w-full text-white py-16 px-4 2xl:pl-40 2xl:pr-30 flex flex-col-reverse lg:flex-row items-center justify-center gap-4">
       {/* Left Logo Image */}
-      <div className="w-full lg:w-1/2 flex lg:justify-center">
+      <div className="w-full md:w-1/2 flex md:justify-center">
         <img
           src={leftImage}
           alt="Background Symbol"

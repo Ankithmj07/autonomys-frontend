@@ -17,7 +17,7 @@ const SuiteCardComponent: React.FC<SuiteCardProps> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row px-4 2xl:px-10 items-center justify-between w-full gap-8 lg:gap-20`}
+      className={`flex flex-col md:flex-row px-4 xl:px-10 items-center justify-between w-full gap-8 lg:gap-20`}
     >
       {/* Left Text */}
       <div className="flex-1">
