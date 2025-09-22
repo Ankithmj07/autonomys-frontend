@@ -34,7 +34,7 @@ const suiteCardData = [
 
 const SuiteSection: React.FC = () => {
   return (
-    <div className="bg-[#1a1927] w-full px-0 xl:px-32 py-20 flex flex-col gap-14 lg:mt-[-150px]">
+    <div className="bg-[#1a1927] w-full px-0 xl:px-28 2xl:px-32 py-20 flex flex-col gap-14 lg:mt-[-150px]">
         <div className='w-full'>
             <div className='flex justify-center'>
                 <h1 className='text-[40px] text-center md:text-[72px] lg:pt-10'

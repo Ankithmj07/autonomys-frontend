@@ -35,7 +35,7 @@ const links = [
 
 const FooterSection: React.FC = () => {
   return (
-    <div className="w-full px-6 lg:px-40 py-15 lg:py-10 bg-[#292a4180] backdrop-blur-2xl rounded-4xl border-2 border-[#292a4126]">
+    <div className="w-full px-6 lg:px-10 xl:px-40 py-15 lg:py-10 bg-[#292a4180] backdrop-blur-2xl rounded-4xl border-2 border-[#292a4126]">
       <div className="flex flex-col lg:flex-row">
         {/* Left Side */}
         <div className="flex flex-col gap-6">

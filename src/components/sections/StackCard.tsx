@@ -33,7 +33,7 @@ const StackCardComponent: React.FC<StackCardProps> = ({
     >
     <div 
     ref={ref}
-    className={`w-full bg-[#d1d8eb] rounded-3xl px-0 xl:py-10 xl:p-6 xl:px-30 flex flex-col-reverse lg:flex-row
+    className={`w-full bg-[#d1d8eb] rounded-3xl px-0 xl:py-10 xl:p-6 2xl:px-30 flex flex-col-reverse lg:flex-row
         ${reverse ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-5 lg:gap-20 items-center`}>     
       <div className="flex-1">
         <div className='hidden lg:block w-full px-2'>

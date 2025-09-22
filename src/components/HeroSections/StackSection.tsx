@@ -57,11 +57,11 @@ const StackSection:React.FC = () => {
                 </h1>
                 <img src={arrowImg} className='hidden lg:block w-[45px] mt-10 ml-8'></img>
             </div>
-            <div className='lg:px-30'>
+            <div className='2xl:px-30'>
                 <p className="text-[16px] text-center text-[#1F2031] opacity-60 mt-0">We have built the Autonomys Network from first principles to simultaneously achieve scalability, security and decentralization. At its core, the Autonomys Network implements Subspace, a novel storage-based consensus protocol that separates consensus from execution. This proposer-builder separation allows the Autonomys Network to independently scale transaction throughput and storage requirements while maintaining a fully decentralized blockchain.</p>
             </div>
             <div className='flex justify-center mt-15'>
-                <hr className='w-full lg:w-[85%]'></hr>
+                <hr className='w-full 2xl:w-[85%]'></hr>
             </div>
         </div>
       {stackCardData.map((card, index) => (

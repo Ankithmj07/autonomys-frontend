@@ -14,7 +14,7 @@ const CommunitySection: React.FC = () => {
         position:'relative'
       }}
     >
-      <div className='px-4 xl:px-40 2xl:px-40 mt-10'>  
+      <div className='px-4 xl:px-20 2xl:px-40 mt-10'>  
       <div className="flex flex-col lg:flex-row justify-between gap-10">
         {/* Left Section */}
         <div>

@@ -25,7 +25,7 @@ const cardData = [
 
 const AI3Section: React.FC = () => {
   return (
-    <section className=" space-y-4 lg:space-y-8 px-4 xl:px-35 lg:py-12 md:pb-20">
+    <section className=" space-y-4 lg:space-y-8 px-4 xl:px-25 lg:py-12 md:pb-20">
       {cardData.map((card, idx) => (
         <AI3Card
           key={idx}
